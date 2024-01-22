@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(159, 148, 134);
+  background-image: url("https://source.unsplash.com/random");
+}
+  
+#app-container { 
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  height: 64vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+  
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+  
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+  
+button:hover {
+  background-color: #45a049;
+}
+  
+#data-container {
+  margin-top: 14px;
+  line-height: 18px;
+  text-align: left;
+}
+
+#data-container img {
+  height: 5vh;
+  margin-left: 50px;
+  position: absolute;
+  margin-bottom: 3px;
+  background-color: cadetblue;
+}
+
+#data-container div strong {
+  line-height: 35px;
+  padding: 10px;
+}
+  
